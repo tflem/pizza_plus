@@ -1,0 +1,205 @@
+/* -------------------------------------------- */
+/* Basic Setup */
+/* -------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+
+html {
+    background-color: #FFF;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------- */
+/* Reusable Components */
+/* -------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3 {   
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+}
+
+h1 {
+    font-family: 'Concert One', cursive;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #E74C3C;
+    font-size: 275%;
+    word-spacing: 3px;    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 175%;
+    color: #FFF;
+    word-spacing: 4px;     
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #E74C3C;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ------ Paragraphs ------ */
+.company-intro {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+/* ------ Buttons ------ */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+    color: #FFF;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #E74C3C;    
+    color: #FFF;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #D62C1A;    
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #E74C3C;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #E74C3C;
+    color: #FFF;    
+}
+
+/* -------------------------------------------- */
+/* Header */
+/* -------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../css/img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.company-name {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 42px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: 'Concert One', cursive;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #E74C3C;    
+}
+
+.introduction p {
+    font-size: 16px;
+}
+
+.divider {
+    height 15px;
+    width: 100%;
+    background-color: #E74C3C;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu-items {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
