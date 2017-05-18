@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;        
+    box-sizing: border-box;
 }
 
 html {
@@ -34,10 +34,10 @@ section {
 
 h1,
 h2,
-h3 {   
+h3 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -46,14 +46,14 @@ h1 {
     margin-bottom: 20px;
     color: #E74C3C;
     font-size: 275%;
-    word-spacing: 3px;    
+    word-spacing: 3px;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 175%;
     color: #FFF;
-    word-spacing: 4px;     
+    word-spacing: 4px;
 }
 
 h3 {
@@ -93,7 +93,7 @@ h3:after {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    
+
 }
 
 .btn-full:link,
@@ -106,13 +106,13 @@ h3:after {
 
 .btn-ghost:link,
 .btn-ghost:visited{
-    border: 1px solid #E74C3C;    
+    border: 1px solid #E74C3C;
     color: #FFF;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #D62C1A;    
+    background-color: #D62C1A;
 }
 
 .btn-full:hover,
@@ -123,7 +123,7 @@ h3:after {
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #E74C3C;
-    color: #FFF;    
+    color: #FFF;
 }
 
 /* -------------------------------------------- */
@@ -134,7 +134,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../css/img/bg.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
 }
 
 .hero-text-box {
@@ -152,7 +152,7 @@ header {
     margin-top: 20px;
     font-family: 'Montserrat';
     text-decoration: none;
-    
+
 }
 
 .main-nav {
@@ -180,7 +180,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #E74C3C;    
+    border-bottom: 2px solid #E74C3C;
 }
 
 .introduction p {
@@ -200,6 +200,6 @@ img {
 .menu-items {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 }
