@@ -81,7 +81,11 @@ h3:after {
     margin-left: 15%;
 }
 
-
+.about-us {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
 
 /* ------ Buttons ------ */
 
@@ -152,7 +156,6 @@ header {
     margin-top: 20px;
     font-family: 'Montserrat';
     text-decoration: none;
-
 }
 
 .main-nav {
@@ -183,8 +186,43 @@ header {
     border-bottom: 2px solid #E74C3C;
 }
 
-.introduction p {
-    font-size: 16px;
+/* -------------------------------------------- */
+/* Menu Items */
+/* -------------------------------------------- */
+
+.section-food {
+    padding: 0;
+}
+
+.menu-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.menu-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-image {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-image img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-image img:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
 
 .divider {
@@ -198,8 +236,7 @@ img {
 }
 
 .menu-items {
+    padding: 4px 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-
-
 }
