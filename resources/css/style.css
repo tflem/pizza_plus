@@ -1,5 +1,5 @@
 /* -------------------------------------------- */
-/* Basic Setup */
+/* Basic Styling */
 /* -------------------------------------------- */
 
 * {
@@ -17,8 +17,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: "-";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* -------------------------------------------- */
-/* Reusable Components */
+/* Reusable Elements */
 /* -------------------------------------------- */
 
 .row {
@@ -27,14 +36,14 @@ html {
 }
 
 section {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .icon-box {
   text-align: center;
 }
 
-/* Headings */
+/* ------ Headings ------ */
 
 h1,
 h2,
@@ -81,6 +90,7 @@ h3:after {
 h4 {
   font-size: 105%;
   display: block;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ------ Paragraphs ------ */
@@ -88,12 +98,14 @@ h4 {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-us {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ------ Icons ------ */
@@ -147,7 +159,7 @@ h4 {
 }
 
 /* -------------------------------------------- */
-/* Header */
+/* The Header */
 /* -------------------------------------------- */
 
 header {
@@ -176,7 +188,7 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 42px;
+    margin-top: 48px;
 }
 
 .main-nav li {
@@ -216,7 +228,15 @@ img {
 }
 
 .menu-items {
-    padding: 4px 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    background-color: #F4F4F4
+}
+
+/* -------------------------------------------- */
+/* Coming Soon */
+/* -------------------------------------------- */
+
+.coming-soon {
+  background-color: #F4F4F4
 }
