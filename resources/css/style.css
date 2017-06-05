@@ -27,7 +27,11 @@ html {
 }
 
 section {
-    padding: 80px 0;
+    padding: 40px 0;
+}
+
+.icon-box {
+  text-align: center;
 }
 
 /* Headings */
@@ -74,6 +78,11 @@ h3:after {
     margin-top: 30px;
 }
 
+h4 {
+  font-size: 105%;
+  display: block;
+}
+
 /* ------ Paragraphs ------ */
 .company-intro {
     line-height: 145%;
@@ -87,6 +96,14 @@ h3:after {
   margin-left: 15%;
 }
 
+/* ------ Icons ------ */
+.icon-large {
+    font-size: 350%;
+    display: block;
+    color: #E74C3C;
+    margin-bottom: 10px;
+}
+
 /* ------ Buttons ------ */
 
 .btn:link,
@@ -97,7 +114,6 @@ h3:after {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-
 }
 
 .btn-full:link,
@@ -154,7 +170,6 @@ header {
     width: auto;
     float: left;
     margin-top: 20px;
-    font-family: 'Montserrat';
     text-decoration: none;
 }
 
@@ -186,50 +201,15 @@ header {
     border-bottom: 2px solid #E74C3C;
 }
 
-/* -------------------------------------------- */
-/* Menu Items */
-/* -------------------------------------------- */
-
-.section-food {
-    padding: 0;
-}
-
-.menu-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.menu-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.meal-image {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-.meal-image img {
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.meal-image img:hover {
-    opacity: 1;
-    transform: scale(1.03);
-}
-
 .divider {
     height 15px;
     width: 100%;
     background-color: #E74C3C;
 }
+
+/* -------------------------------------------- */
+/* Menu Items */
+/* -------------------------------------------- */
 
 img {
     max-width: 100%;
