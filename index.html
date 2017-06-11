@@ -10,6 +10,12 @@
   <!-- Mobile Meta Information -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="resources/vendors/css/normalize.min.css">
+  <link rel="stylesheet" href="resources/vendors/css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/vendors/css/ionicons.min.css">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
@@ -17,11 +23,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="resources/css/img/pizza.ico">
 
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="resources/vendors/css/normalize.min.css">
-  <link rel="stylesheet" href="resources/vendors/css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-  <link rel="stylesheet" type="text/css" href="resources/vendors/css/ionicons.min.css">
+
 
 </head>
 <body>
@@ -136,5 +138,70 @@
       </div>
     </div>
   </div>
-  </body>
-  </html>
+</section>
+
+  <!-- Contact Us -->
+
+  <section class="contact-us">
+    <div class="row">
+      <h3>Contact Us</h3>
+    </div>
+    <div class="row">
+      <form method="post" action="#" class="contact-form">
+        <div class="row">
+          <div class="four columns menu">
+            <label for="name">Name</label>
+          </div>
+          <div class="eight columns menu">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="four columns menu">
+            <label for="email">Email</label>
+        </div>
+        <div class="eight columns menu">
+          <input type="email" name="name" id="email" placeholder="Your Email" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns menu">
+          <label for="find-us">How Did You Find Us?</label>
+      </div>
+      <div class="eight columns menu">
+        <select name="find-us" id="find-us">
+          <option value="word-of-mouth">Word of Mouth</option>
+          <option value="online" selected="">Online</option>
+          <option value="phone-book">Phone Book</option>
+          <option value="advertisement">Radio/TV Ad</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns menu">
+        <label>Want info on Specials?</label>
+      </div>
+      <div class="eight columns menu">
+        <input type="checkbox" name="specials" id="specials" checked="">Yes
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns menu">
+        <label>Leave a Comment!</label>
+      </div>
+      <div class="eight columns menu">
+        <textarea name="message" placeholder="Your Comment"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns menu">
+        <label>&nbsp;</label>
+      </div>
+      <div class="eight columns menu holder">
+        <input type="submit" value="submit">
+      </div>
+    </div>
+  </form>
+</section>
+</body>
+</html>
