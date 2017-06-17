@@ -5,7 +5,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -126,6 +127,7 @@ input[type=submit] {
     font-weight: 400;
     text-decoration: none;
     border-radius: 200px;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
@@ -167,6 +169,7 @@ input[type=submit]:active {
 /* -------------------------------------------- */
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.2))), url(../css/img/bg.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../css/img/bg.jpg);
     height: 100vh;
     background-size: cover;
@@ -179,7 +182,8 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .company-name {
@@ -190,6 +194,7 @@ header {
     text-decoration: none;
 }
 
+/* Main Navigation */
 .main-nav {
     float: right;
     list-style: none;
@@ -210,12 +215,39 @@ header {
     font-size: 100%;
     font-family: 'Concert One', cursive;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #E74C3C;
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(18, 16, 16, 0.98);
+    box-shadow: 0 2px 2px #302F2F;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 36px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #FFF;
+}
+
+.sticky .company-name {
+    height: 50px;
+    margin-top: 10px;
 }
 
 .divider {
@@ -265,7 +297,8 @@ textarea {
     padding: 7px;
     border-radius: 3px;
     outline: none;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     border: 1px solid #CCC !important;
 }
 
@@ -319,6 +352,7 @@ footer {
     text-decoration: none;
     border: 0;
     color: #E74C3C;
+    -webkit-transition: color 0.3s;
     transition: color 0.3s;
 }
 
@@ -330,6 +364,7 @@ footer {
 .ion-social-twitter,
 .ion-social-linkedin,
 .ion-social-github {
+    -webkit-transition: color 0.3s;
     transition: color 0.3s;
 }
 
