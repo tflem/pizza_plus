@@ -35,20 +35,21 @@
   <header>
     <nav>
       <div class="row">
-        <a class="company-name clearfix" href="index.html"><h1><em>Pizza Plus</em></h1></a>
-        <ul class="main-nav clearfix">
-          <li><a href="#">Menu Items</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Coming Soon</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <a class="company-name" href="index.html"><h1><em>Pizza Plus</em></h1></a>
+        <ul class="main-nav js--main-nav">
+          <li><a href="#menu-items">Menu Items</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#coming-soon">Coming Soon</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
         </ul>
+          <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
       </div>
     </nav>
 
     <div class="hero-text-box">
       <h2>Offering the Best in Pizza,<br/> Subs, Steaks, and Much More</h2>
-      <a class="btn btn-full" href="#">Let's Eat</a>
-      <a class="btn btn-ghost" href="#">Learn More</a>
+      <a class="btn btn-full js--scroll-to-menu-items" href="#">Let's Eat</a>
+      <a class="btn btn-ghost js--scroll-to-about" href="#">Learn More</a>
     </div>
   </header>
   <div class="divider">
@@ -74,7 +75,7 @@
 
   <!-- Menu Items -->
 
-  <section class="menu-items">
+  <section class="menu-items js--menu-items" id="menu-items">
     <h3>Also Offering</h3>
       <div class="container">
         <div class="row">
@@ -110,7 +111,7 @@
 
     <!-- About Us -->
 
-    <section class="about">
+    <section class="about js--about" id="about">
       <h3>About Us</h3>
       <p class="about-us">Pizza Plus offers a wide variety of menu items in a casual atmosphere.
       You can always count on us for excellent customer service, quality foods, and low prices.
@@ -121,7 +122,7 @@
 
     <!-- Coming Soon -->
 
-    <section class="coming-soon">
+    <section class="coming-soon" id="coming-soon">
       <h3>Coming Soon</h3>
       <div class="container">
         <div class="row">
@@ -143,7 +144,7 @@
 
   <!-- Contact Us -->
 
-  <section class="contact-us">
+  <section class="contact-us" id="contact-us">
     <div class="row">
       <h3>Contact Us</h3>
     </div>
