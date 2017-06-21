@@ -50,4 +50,12 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
           }
     });
+
+    /* Map */
+    new GMaps({
+    div: '.map',
+    lat: 36.1038256,
+    lng: -86.7225316,
+    zoom: 16
+  });
 });
