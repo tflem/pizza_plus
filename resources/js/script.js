@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     // Navigation Scroll
     $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
+      $('a[href*=\\#]:not([href=\\#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -56,6 +56,7 @@ $(document).ready(function() {
     div: '.map',
     lat: 36.1038256,
     lng: -86.7225316,
+    scrollwheel: false,
     zoom: 16
   });
 });
