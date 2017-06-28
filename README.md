@@ -1,3 +1,11 @@
 # Pizza Plus
 
-Welcome to Pizza Plus! I've been using Bootstrap for a number of projects and I'm finding it to be a bit bloated and verbose. With this particular project, I'm getting back to front-end basics. This is just good old HTML and CSS to start along with the small, yet robust Skeleton Responsive Grid as well as jQuery. You can view my progress at http://burly-room.surge.sh.
+> Welcome to Pizza Plus! I've been using Bootstrap for a number of projects and I'm finding it to be a bit bloated and verbose. With this particular project, I'm getting back to front-end basics. Pizza Plus features the following:
+
+* HTML
+* CSS
+* Skeleton UI
+* jQuery
+* Google Maps API
+
+You can view my progress at http://burly-room.surge.sh.
