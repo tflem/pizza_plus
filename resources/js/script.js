@@ -8,7 +8,7 @@ $(document).ready(function() {
             $('nav').removeClass('sticky');
         }
     }, {
-      offset: '8px;'
+      offset: '2px;'
     });
 
     // Scroll on Buttons
