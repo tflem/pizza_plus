@@ -38,10 +38,10 @@ $(document).ready(function() {
 
     /* Mobile Navigation */
     $('.js--nav-icon').click(function() {
-        var nav = $('.js--main-nav');
+        var nav = $('.js--sidebar-nav');
         var icon = $('.js--nav-icon i');
 
-        nav.slideToggle(200);
+        nav.animate({ width: 'toggle' }, 350);
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');

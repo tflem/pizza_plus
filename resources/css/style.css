@@ -35,6 +35,8 @@ body {
     visibility: hidden;
 }
 
+.sidebar-nav { display: none; }
+
 /* -------------------------------------------- */
 /* Reusable Elements */
 /* -------------------------------------------- */
@@ -230,6 +232,35 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #E74C3C;
+}
+
+.sidebar-nav {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    margin: 0;
+    padding: 20px 0;
+    background: #000;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.sidebar-nav li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 100%;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid rgba(166, 150, 150, 0.2);
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active {
+    color: #E74C3C;
 }
 
 .divider {
@@ -433,6 +464,7 @@ footer {
     }
 
     .row { padding: 0 2%; }
+    .sidebar-nav { display: none; }
 }
 
 /* Small tablets to big tablets from 768px to 1023px */
@@ -506,8 +538,6 @@ footer {
         margin-left: 25px;
     }
 
-    .main-nav li { display: none; }
-
     h2 { font-size: 120%; }
     h3 { font-size: 140%; }
 
@@ -523,6 +553,8 @@ footer {
         width: 100%;
         padding: 0 6%;
     }
+
+    .sidebar-nav li { display: block; }
 
     h2 { font-size: 88%; }
     h3 { font-size: 88%; }
