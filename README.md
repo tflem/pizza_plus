@@ -1,6 +1,6 @@
 # Pizza Plus
 
-> Welcome to Pizza Plus! I've been using Bootstrap for a number of projects and I'm finding it to be a bit bloated and verbose. With this particular project, I'm getting back to front-end basics. Pizza Plus features the following:
+> Welcome to Pizza Plus! I've been using Bootstrap themes and templates for a number of projects and I'm finding it to be quite time consuming bending the themes and templates to my will. With this particular project, I'm getting back to front-end basics. Pizza Plus features the following:
 
 * HTML
 * CSS
