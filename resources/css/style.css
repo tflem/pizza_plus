@@ -26,8 +26,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 .sidebar-nav { display: none; }
 
 /* -------------------------------------------- */
@@ -530,7 +528,9 @@ footer {
 
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
     .hero-text-box {
+        margin-left: 3%;
         width: 100%;
         padding: 0 0.1% 0 0.1%;
     }
