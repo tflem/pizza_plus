@@ -448,7 +448,6 @@ footer {
         padding: 0 2%;
     }
 
-    .row { padding: 0 2%; }
     .sidebar-nav { display: none; }
 }
 
@@ -473,7 +472,6 @@ footer {
   body { font-size: 16px; }
   section { padding: 30px 0; }
 
-  .row,
   .hero-text-box { padding: 0 4%; }
 
   .mobile-nav-icon { display: inline-block; }
@@ -509,8 +507,8 @@ footer {
     body { font-size: 16px; }
     section { padding: 30px 0; }
 
-    .row,
-    .hero-text-box { padding: 0;}
+    .hero-text-box { padding: 0; }
+
     .mobile-nav-icon {
       display: inline-block;
       margin-right: 2%;
@@ -522,25 +520,10 @@ footer {
         margin-left: 25px;
     }
 
-    h2 { font-size: 120%; }
-    h3 { font-size: 140%; }
-}
-
-/* Small phones from 0 to 480px */
-@media only screen and (max-width: 480px) {
-
-    .hero-text-box {
-        margin-left: 3%;
-        width: 100%;
-        padding: 0 0.1% 0 0.1%;
+    h2 {
+      font-size: 120%;
+      margin-top: 55px;
+      margin-left: 8px;
     }
-
-    .sidebar-nav li { display: block; }
-
-    h2 { font-size: 0.90rem; }
-    h3 { font-size: 0.85rem; }
-    section { padding: 25px 0; }
-    .contact-form { width: 90%; }
-    .company-intro { font-size: 0.78; }
-    .about-us { font-size: 0.78; }
+    h3 { font-size: 140%; }
 }
