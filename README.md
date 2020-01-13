@@ -8,4 +8,4 @@
 * jQuery
 * Google Maps API
 
-You can view my progress at http://pizza-plus.surge.sh.
+You can view my progress at https://pizza-plus.surge.sh.
