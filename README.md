@@ -8,4 +8,4 @@
 * jQuery
 * Google Maps API
 
-You can view my progress at https://pizzaplus.netlify.com
+You can view my progress at https://pizzaplus.netlify.app
